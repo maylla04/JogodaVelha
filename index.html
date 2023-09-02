@@ -12,7 +12,39 @@
     <link rel="apple-touch-icon" href="images/pwa-icon-256.png"/>
     <title>Jogo da Velha</title>
 </head>
-<body>
+<body class="fullscren">
+    <center><div class="container">
+        <h1>Jogo da Velhinha</h1><br/><br/>
+		<label for="Jogador1"> Jogador 1: </label>
+		<input type="text" id="jogador1"/>
+		<label for="Jogador2"> Jogador 2: </label>
+		<input type="text" id="jogador2"/> 
+		
+		<input type="button" value="Iniciar" onclick="ComecaJogo();"/>
+        
+        <p id="jogadorAtual"> </p>
+
+<div id="jogo">
     
+	<div>
+		<div class="linha"> 
+			<button onclick="setOnCeil(this, 0);" id="um"> &nbsp; </button>
+			<button onclick="setOnCeil(this, 1);" id="dois"> &nbsp; </button>
+			<button onclick="setOnCeil(this, 2);" id="tres"> &nbsp; </button>
+        </div>
+		<div class="linha"> 
+			<button onclick="setOnCeil(this, 3);" id="quatro"> &nbsp; </button>
+			<button onclick="setOnCeil(this, 4);" id="cinco"> &nbsp; </td>
+			<button onclick="setOnCeil(this, 5);" id="seis"> &nbsp; </button>
+            </div>
+		<div class="linha"> 
+			<button onclick="setOnCeil(this, 6);" id="sete"> &nbsp; </button>
+			<button onclick="setOnCeil(this, 7);" id="oito"> &nbsp; </button>
+			<button onclick="setOnCeil(this, 8);" id="nove"> &nbsp; </button>
+        </div>
+	</div>
+
+</div></center>
+    <script src="/js/main.js"></script>
 </body>
 </html>
