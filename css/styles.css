@@ -1,39 +1,51 @@
+body{
+  background-color: rgb(241, 229, 229);
+}
+
 button{
     width: 100%;
     height: 150px;
-    background-color: white;
-    border: none;
+    background-color: rgb(245, 237, 237);
+    border: 3px solid pink;
+
   }
-  #sete{
-    border-top: 3px solid rgb(234, 169, 210);
-    border-right: 3px solid rgb(234, 169, 210);
-  }
-  #oito{
-    border-top: 3px solid rgb(234, 169, 210);
-    border-right: 3px solid rgb(234, 169, 210);
-  }
-  #um{
-    border-right: 3px solid rgb(234, 169, 210);
-    border-bottom: 3px solid rgb(234, 169, 210);
-  }
-  #dois{
-   border-right: 3px solid rgb(234, 169, 210);
-   border-bottom: 3px solid rgb(234, 169, 210);
-  }
-  #tres{
-   border-bottom: 3px solid rgb(234, 169, 210);
-  }
-  #quatro{
-    border-right: 3px solid rgb(234, 169, 210);
-  }
-  #cinco{
-    border-right: 3px solid rgb(234, 169, 210);
-  }
-  #nove{
-    border-top: 3px solid rgb(234, 169, 210);
-  }
+  
   .linha{
     display: grid;
     grid-template-columns: auto auto auto;
     width: 50%;
+    background-color: rgb(245, 237, 237);
   }
+h1{
+  color: pink;
+  border-bottom: 1px solid pink;
+  border-width: 40%;
+}
+.iniciar{
+  width: 30%;
+  height: 50px;
+  color: rgb(252, 158, 174);
+}
+
+.iniciar:hover{
+  background-color: pink;
+  color: white;
+}
+input{
+  border: none;
+  border-bottom: 2px solid pink;
+  width: 70%;
+  margin-bottom: 5%;
+  padding: 5%;
+  background-color: rgb(245, 237, 237);
+}
+.form{
+  border: 2px solid pink;
+  border-radius: 1%;
+  width: 100%;
+}
+.flex{
+  display: flex;
+  width: 50%;
+}
+
